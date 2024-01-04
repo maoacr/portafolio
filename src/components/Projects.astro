@@ -1,6 +1,8 @@
 ---
 import NextJS from "./icons/NextJS.astro"
 import Tailwind from "./icons/Tailwind.astro"
+import React from "./icons/React.astro"
+
 
 const TAGS = {
   NEXT: {
@@ -11,7 +13,12 @@ const TAGS = {
   TAILWIND: {
     name: "Tailwind CSS",
     class: "bg-[#003159] text-white",
-    icon: Tailwind,
+    icon: React,
+  },
+  REACT: {
+    name: "React.js",
+    class: "bg-[#003159] text-white",
+    icon: React,
   },
 }
 const PROJECTS = [
@@ -22,7 +29,7 @@ const PROJECTS = [
     link: "https://svgl.vercel.app/",
     github: "https://github.com/pheralb/svgl",
     image: "/projects/svgl.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+    tags: [TAGS.NEXT, TAGS.REACT],
   },
 ]
 ---
