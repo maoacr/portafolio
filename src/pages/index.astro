@@ -17,9 +17,9 @@ import Projects from "../components/Projects.astro"
   description="Contrata a Mario para crear tu aplicación web. Desarrollador Web con gran experiencia en diseño . Especializado en crear aplicaciones únicas."
 >
   <main class="px-4">
-    <SectionContainer class="py-44 pb-32" id="sobre-mi">
+    <SectionContainer class="py-10 pb-32" id="sobre-mi">
       <img
-        class="rounded-full size-12 mb-4"
+        class="rounded-full size-28 mb-4"
         src="/profile-photo-maoacr.webp"
         alt="Mario photo"
       />
@@ -41,27 +41,27 @@ import Projects from "../components/Projects.astro"
         <span class="text-yellow-800 dark:text-yellow-200">
           Desarrollador Web Frontend
         </span>
-        <span>+3 años de experiencia.</span>
+        <span>con más de 4 años de experiencia.</span>
+        <span class="text-sky-800 dark:text-sky-200">
+          Especializado en aplicaciones web accesibles e intuitivas.
+        </span>
         <span class="text-red-800 dark:text-red-200">
           De Fusagasugá, Colombia.
-        </span>
-        <span class="text-sky-800 dark:text-sky-200">
-          Especializado en crear aplicaciones únicas.
         </span>
       </h2>
 
       <nav class="flex gap-4 mt-8 flex-wrap">
         <SocialPill href="https://linkedin.com/in/maoacr">
           <LinkedInIcon class="size-4 md:size-6" />
-           LinkedIn
+            LinkedIn
         </SocialPill>
         <SocialPill href="https://github.com/maoacr">
           <GitHubIcon class="size-4 md:size-6" />
-           GitHub
+            GitHub
         </SocialPill>
         <SocialPill href="mailto:iam@maoacr.com">
           <MailIcon class="size-4 md:size-6" />
-           iam@maoacr.com
+            iam@maoacr.com
         </SocialPill>
       </nav>
     </SectionContainer>
@@ -71,19 +71,19 @@ import Projects from "../components/Projects.astro"
         class="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-black/80 dark:text-white/80"
       >
         <Briefcase class="size-7" />
-         Experiencia laboral
+          Experiencia laboral
       </h2>
       <Experience />
     </SectionContainer>
 
-    <!-- <SectionContainer id="proyectos">
+    <SectionContainer id="proyectos">
       <h2
         class="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-black/80 dark:text-white/80"
       >
         <CodeIcon class="size-7" />
-         Proyectos
+          Proyectos
       </h2>
       <Projects />
-    </SectionContainer> -->
+    </SectionContainer>
   </main>
 </Layout>
