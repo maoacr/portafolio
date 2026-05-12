@@ -1,0 +1,22 @@
+---
+import EducationItem from "./EducationItem.astro"
+const EDUCATION = [
+  {
+    date: "Enero 2019 - Actualmente",
+    title: "Frontend Enginner - Platzi",
+    description:
+      "Desde 2019 me he formado de manera constante en Platzi, fortaleciendo mis habilidades en desarrollo frontend a través de rutas especializadas, proyectos prácticos y aprendizaje continuo. Gracias a este proceso autodidacta y disciplinado, he consolidado conocimientos en arquitectura frontend, desarrollo de interfaces modernas, buenas prácticas de ingeniería y tecnologías del ecosistema JavaScript, desempeñándome como Frontend Engineer orientado a la creación de productos escalables y de alta calidad.",
+    link: "https://platzi.com/p/maoacr",
+  },
+]
+---
+
+<ol class="relative border-s border-gray-200 ml-3">
+  {
+    EDUCATION.map((education) => (
+      <li class="mb-10 ms-4">
+        <EducationItem {...education} />
+      </li>
+    ))
+  }
+</ol>
